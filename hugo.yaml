@@ -1,0 +1,108 @@
+baseURL: 'https://porto.keyz.my.id'
+title: Hello Friend NG
+languageCode: en-us
+theme: hello-friend-ng
+PygmentsCodeFences: true
+PygmentsStyle: monokai
+paginate: 10
+rssLimit: 10
+copyright: >-
+  This work is licensed under a Creative Commons Attribution-NonCommercial 4.0
+  International License.
+archetypeDir: archetypes
+contentDir: content
+dataDir: data
+layoutDir: layouts
+publishDir: public
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+canonifyURLs: true
+enableRobotsTXT: true
+enableGitInfo: false
+enableEmoji: true
+enableMissingTranslationPlaceholders: false
+disableRSS: false
+disableSitemap: false
+disable404: false
+disableHugoGeneratorInject: false
+permalinks:
+  posts: '/posts/:year/:month/:title/'
+blackfriday:
+  hrefTargetBlank: true
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+params:
+  author:
+    name: Luqinthar Sudarsono 
+    # dateform: 'Feb 6, 2024'
+    # dateformShort: Feb 6
+    # dateformNum: '2024-02-06'
+    # dateformNumTime: '2006-01-02 15:04'
+    # description: Nice theme for homepages and blogs
+    keywords: ''
+    images:
+      - ''
+    homeSubtitle: Hello Friend NG
+    disableReadOtherPosts: false
+    enableThemeToggle: false
+    enableSharingButtons: true
+    enableGlobalLanguageMenu: true
+    customCSS: []
+    customJS: []
+    justifyContent: false
+  footer:
+    trademark: 2024
+    rss: true
+    copyright: true
+    author: true
+    topText: []
+    bottomText:
+      - 'Powered by <a href="http://gohugo.io">Hugo</a>'
+      - >-
+        Made with &#10084; by <a href="https://github.com/rhazdon">Luqinthar Sudarsono</a>
+  favicon:
+    color:
+      mask: '#1b1c1d'
+      msapplication: '#1b1c1d'
+      theme: '#1b1c1d'
+  logo:
+    logoMark: '>'
+    logoText: $ cd /home/
+    logoHomeLink: /
+  social:
+    - name: instagram
+      url: 'https://instagram.com/usrbin.rm.rf'
+    - name: email
+      url: 'mailto:luqinthar@gmail.com'
+    - name: github
+      url: 'https://github.com/Keyz078'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/luqinthar-sudarsono'
+    - name: stackoverflow
+      url: 'https://www.stackoverflow.com/'
+languages:
+  en:
+    weight: 1
+    copyright: >-
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    params:
+      subtitle: Hello Friend NG Theme
+  fr:
+    weight: 2
+    copyright: >-
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    params:
+      subtitle: Hello Friend NG Theme
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: about/
+    - identifier: posts
+      name: Posts
+      url: posts/
